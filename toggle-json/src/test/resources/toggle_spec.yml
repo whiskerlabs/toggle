@@ -1,0 +1,25 @@
+---
+- key: "/feature/admin_widget"
+  filter:
+    type: cohort
+    target: admin
+    value: 10000
+- key: "/feature/dogfood_widget"
+  filter:
+    type: cohort
+    target: employee
+    value: 10000
+- key: "/feature/incremental_rollout"
+  filter:
+  - type: cohort
+    target: employee
+    value: 10000
+  - type: random
+    value: 100
+- key: "/feature/ab_test"
+  filter:
+    type: cohort
+    target: beta_tester
+    value: 5000
+- key: "/feature/always_off"
+  value: 0
