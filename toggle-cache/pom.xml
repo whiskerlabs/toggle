@@ -19,6 +19,7 @@
     <dependency>
       <groupId>com.whiskerlabs</groupId>
       <artifactId>toggle-core</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.github.ben-manes.caffeine</groupId>

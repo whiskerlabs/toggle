@@ -19,10 +19,12 @@
     <dependency>
       <groupId>com.whiskerlabs</groupId>
       <artifactId>toggle-json</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-java-sdk-dynamodb</artifactId>
+      <version>1.11.85</version>
       <exclusions>
         <exclusion>
           <groupId>commons-logging</groupId>
@@ -41,6 +43,7 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
+      <version>1.7.21</version>
     </dependency>
   </dependencies>
 </project>
